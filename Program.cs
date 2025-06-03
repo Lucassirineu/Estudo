@@ -32,6 +32,7 @@ namespace Estudo
             string nome = Console.ReadLine();
             Cachorro cachorro = new Cachorro(nome);
             cachorro.Apresentar();
+            Menu();
         }
         static void Gato()
         {
@@ -40,6 +41,7 @@ namespace Estudo
             string nome = Console.ReadLine();
             Gato gato = new Gato(nome);
             gato.Apresentar();
+            Menu();
         }
     }
 
